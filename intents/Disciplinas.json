@@ -1,0 +1,109 @@
+{
+  "id": "0b56b77a-bc88-4022-88af-02d19bae07e1",
+  "name": "Disciplinas",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Okay! Aqui está uma lista com as Disciplinas do Curso! \nhttp://nbcgib.uesc.br/colcic/programas.html"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Matérias do curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "056e3f3e-2560-4d19-bbe7-e4f2625263c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Disciplinas de Ciência da Computação",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3a7abf8-8c37-493b-8aa0-09f604704ffb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Disciplinas de Cic",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b24a280c-22e6-4db8-8b38-91865e18fec7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Disciplinas do curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "86bc3c69-4044-4f19-b7d5-142c9ea6fdd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Programa de disciplinas",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "712789c2-6ad8-4c23-a5ac-ec35c64c6887",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

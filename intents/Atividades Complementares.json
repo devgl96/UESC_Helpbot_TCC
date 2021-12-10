@@ -1,0 +1,225 @@
+{
+  "id": "92d90ff9-5b54-4f46-8e1b-7aca792b05ef",
+  "name": "Atividades Complementares",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Okay! Segue abaixo um link para verificar todas as atividades complementares do curso de Ciência da Computação da UESC!\nhttp://nbcgib.uesc.br/colcic/atividadescompl.html"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Para realizar as atividades complementares basta seguir os seguintes passos:"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Primeiramente, acesse o Barema, preencha através do link abaixo e depois salve ou imprima:\nhttp://nbcgib.uesc.br/colcic/baremacompl.html"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Agora, reúna todos os comprovantes ou certificados informados no *Barema* e faça uma junção entre o Barema e estes documentos."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Depois,  acesse o Protocolo Digital através do link abaixo, preencha o formulário do *Requerimento Acadêmico* informando que o assunto é *Atividades Complementares* e descreva o que deseja.\nhttp://www.uesc.br/proad/index.php?item=conteudo_gera_requerimento_academico.php"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Por fim, una os dois documentos em um, ou seja, o Barema (com os Certificados e Comprovantes) com o *Requerimento Acadêmico* e envie para o  *Protocolo UESC* por meio deste e-mail: protocolouesc@uesc.br"
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Então, é só aguardar a validação das Atividades Complementares. \nPara validar as Atividades Complementares, acesse o Fluxograma e verifique as Atividades Complementares."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "200 horas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "f253f34a-a2e0-4b0f-b3df-c47ef16fae45",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como saber quais as atividades ",
+          "userDefined": false
+        },
+        {
+          "text": "para",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " completar as ",
+          "userDefined": false
+        },
+        {
+          "text": "200 horas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b7764bc-162b-4ee0-b7cd-c2c54d4057e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Horas extras do curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "243a14d0-86bd-457f-9d53-731ccc063bed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Atividades Complementares",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "730182b9-db14-4151-af83-e36dde3a77e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Complementares",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "296b299e-79f5-4b76-8908-e0828711ddc6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quais ",
+          "userDefined": false
+        },
+        {
+          "text": "são",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " as atividades complementares?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3dad05af-fa2c-4046-92df-40f7324652a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como saber quais as atividades complementares do curso?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6afe9962-1688-49bc-ab0d-665c7d77c355",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Atv. Complementares",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a818f20-ec70-4ef7-bb97-e42882e8b1a4",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

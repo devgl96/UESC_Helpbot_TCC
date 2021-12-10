@@ -1,0 +1,101 @@
+{
+  "id": "0362f402-996a-4a01-967a-82b0848fe57c",
+  "name": "Diferença entre Matrícula Web e Institucional",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "A matrícula Web é voltada para os veteranos que desejam cursar o semestre, já a matrícula institucional é para aqueles que não vão conseguir ou não querem cursar o semestre letivo em questão."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "No caso, pra o aluno não perder a vaga ele solicita a matrícula institucional e mantem o vinculo com a universidade."
+          ]
+        },
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Lembrando que todos os discentes podem solicitar a matricula institucional."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Diferença entre matrícula web e a matrícula normal",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ee4b5934-4db8-48d3-b71e-27a00e2f9821",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Diferença entre matrícula web e matrícula institucional",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "377c5740-8228-4f68-b81b-3c1643dca2ff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "qual a diferença de matrícula web e matrícula institucional?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73030bde-a292-48e3-870a-b94782cbfebb",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

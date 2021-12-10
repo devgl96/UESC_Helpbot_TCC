@@ -1,0 +1,97 @@
+{
+  "id": "a7855c31-5477-4154-b91d-b71358242099",
+  "name": "Fluxograma",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Okay! Aqui está o Fluxograma do Curso de Ciência da Computação! http://nbcgib.uesc.br/colcic/document/comp_curriculares/matriz_cic_2012.pdf"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fluxograma do curso de Ciência da computação",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c2cdef0-479b-4949-9260-b1c76da10057",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fluxograma de cic",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "60e980fa-b795-4f6e-85ab-2822e5b52519",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fluxograma",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f11a75a6-0a3c-49dc-a624-879d124f4ae4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "fluxograma do curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d9b663e-5306-47c6-9166-3a159f16ac11",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

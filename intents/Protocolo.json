@@ -1,0 +1,147 @@
+{
+  "id": "f187d765-148f-443b-804a-99085d551614",
+  "name": "Protocolo",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Acesse esse link para ser direcionado ao Protocolo Digital da UESC\nhttp://www.uesc.br/proad/index.php?item=conteudo_gera_requerimento_academico.php"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "protocolo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "393764a7-0f10-48ad-b797-5d67c56729ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Protocolo Digital",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ad5ad12-9385-463e-8950-859e81c219ba",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como faço ",
+          "userDefined": false
+        },
+        {
+          "text": "para",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " mandar as atividades complementares?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a124a6f-23d3-4cbe-80c1-412769d2ee63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como faço ",
+          "userDefined": false
+        },
+        {
+          "text": "para",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " entregar as atividades complementares do protocolo?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "87ed124e-d801-49a3-9865-ef750ab30815",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Onde encontro o protocolo online?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "20a0da44-191e-416f-9e3b-76ece0650e1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Protocolo ",
+          "userDefined": false
+        },
+        {
+          "text": "UESC",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "853dd53c-4a6d-42c7-a3e1-05508102bf29",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

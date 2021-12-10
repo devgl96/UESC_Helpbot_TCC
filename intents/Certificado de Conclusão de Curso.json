@@ -1,0 +1,109 @@
+{
+  "id": "b9e70f0a-01f5-4702-9899-56e040599115",
+  "name": "Certificado de Conclusão de Curso",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Certo! Para obter seu Certificado de Conclusão de Curso acesse o link abaixo:\nhttps://www.prograd.uesc.br/PortalSagres/Modules/Diario/Aluno/Relatorio/CertidaoConclusaoCurso.aspx\nObservação: Para conseguir emitir o Certificado é necessário que o status do discente (aluno(a)) seja Concluinte"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero o certificado de conclusão de curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90c66cca-59a8-4b50-87e1-0b5ec4c76546",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Preciso do certificado de conclusão de curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b59db017-8526-4ab6-9534-678c493a7a9a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como posso conseguir o certificado de conclusão de curso?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9a0776d0-2b7a-4271-ad55-9de510548869",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Onde consigo o certificado de conclusão de curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ec05cd28-7fad-4d68-b6cb-7c1d01861b65",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Certificado de Conclusão de Curso",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ee465b3-f10b-4b91-aa3a-1d1a15970b16",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

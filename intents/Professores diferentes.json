@@ -1,0 +1,137 @@
+{
+  "id": "290235d6-9f1f-4e15-a4e0-87ff82815128",
+  "name": "Professores diferentes",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Algumas disciplinas são divididas em 2 turmas, com professores diferentes, mas horários iguais. Por isso, as duas turmas com professores diferentes."
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Duas turmas com professores diferentes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1c83eb9a-14de-4cf6-8f1b-2fa95f9665f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Professores diferentes na mesma matéria",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c01616ee-5161-44ec-afe2-d2fded0e7c19",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "o que significa quando tem 2 professores na mesma turma de uma matéria?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "296be16c-ad6c-450e-8961-066ffa478eef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "pq nessa matéria as ",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " turmas estão juntas mas ",
+          "userDefined": false
+        },
+        {
+          "text": "são",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " professores diferentes? ou ",
+          "userDefined": false
+        },
+        {
+          "text": "são",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " só ",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " aulas em horários iguais?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "51c9b9e6-b80b-47a3-894f-e5a50affd9e9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

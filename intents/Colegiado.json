@@ -1,0 +1,133 @@
+{
+  "id": "87db078a-15e8-48f8-b16a-d8bf181ba953",
+  "name": "Colegiado",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Okay! Estes são os contatos do Colegiado\n\nE-mail:\tcolcic@uesc.br\nColegiado:\t3680-5110\nE-mail laboratórios:\tcolciclab@uesc.br\nTelefone laboratório:\t3680-5290\n\nOu acesse o link abaixo:\nhttp://www.uesc.br/colegiado_computacao/index.php?item=conteudo_contato.php"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como consigo falar com",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " o colegiado?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d7aeb7c-3d55-4853-80c5-519a4a97a0a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Colegiado de Ciência da Computação",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2443a7da-576e-4d9e-9909-e8dc29debb02",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Colegiado ",
+          "userDefined": false
+        },
+        {
+          "text": "CIC",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "df445be0-572b-4d2a-95dd-ed0e2304df92",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Colegiado de Cic?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08433d23-20de-4890-91a9-26cabc0c345a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qual o contato do colegiado de Cic?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f78fafcb-6630-4095-b172-5432ae869731",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Colegiado",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "15a41ec7-a614-4aab-9343-950ee90a42a0",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

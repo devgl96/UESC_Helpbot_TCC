@@ -1,0 +1,115 @@
+{
+  "id": "beddd2df-26a7-4064-9cd5-b21fc2fa98a5",
+  "name": "Matricula",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "matricula",
+          "dataType": "@sys.number-sequence",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$matricula",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Sua matricula é $matricula"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "201610002",
+          "userDefined": false,
+          "alias": "matricula",
+          "meta": "@sys.number-sequence"
+        }
+      ],
+      "count": 0,
+      "id": "a9e6165a-dfd1-44aa-b7d7-7253fdfa036a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "201510003",
+          "userDefined": false,
+          "alias": "matricula",
+          "meta": "@sys.number-sequence"
+        }
+      ],
+      "count": 0,
+      "id": "6138cb92-f899-4525-87b8-9e65fc20feeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "201620001",
+          "userDefined": false,
+          "alias": "matricula",
+          "meta": "@sys.number-sequence"
+        }
+      ],
+      "count": 0,
+      "id": "fe47c316-f4b8-4970-8e2d-9bb27953a35e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Minha matrícula é ",
+          "userDefined": false
+        },
+        {
+          "text": "201620390",
+          "userDefined": false,
+          "alias": "matricula",
+          "meta": "@sys.number-sequence"
+        }
+      ],
+      "count": 0,
+      "id": "da2b940c-141d-4718-9c02-82622fb61f07",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,201 @@
+{
+  "id": "8496e02c-69ef-47c3-9de2-5f0235c88abe",
+  "name": "Portal UESC",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "messages": [
+        {
+          "type": "message",
+          "platform": "telegram",
+          "condition": "",
+          "speech": [
+            "Certo! Segue o link para acessar o Portal Sagres da UESC!\nhttp://www.prograd.uesc.br/PortalSagres/Acesso.aspx"
+          ]
+        },
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Portal ",
+          "userDefined": false
+        },
+        {
+          "text": "UESC",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "15ac6017-322e-45ad-b0bc-d84c91bc1373",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Qual é o portal da ",
+          "userDefined": false
+        },
+        {
+          "text": "UESC",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b23ef276-243f-46f4-bb68-edb53bbfb724",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como entrar no ",
+          "userDefined": false
+        },
+        {
+          "text": "sagres",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c818c44c-6c71-4359-8e6c-b35624dd2979",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como entrar no portal ",
+          "userDefined": false
+        },
+        {
+          "text": "sagres",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9089f813-9516-4380-8861-87240f387b2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero entrar no portal",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3a525b2-9334-424d-bb55-c3d3f25432e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero acessar o Portal",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "220c06e2-b5fe-4b76-8bee-7421e13a5a71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como acessar o Portal?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "13bee336-5442-4159-8a4a-2b03e6d7420e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Como acessar ",
+          "userDefined": false
+        },
+        {
+          "text": "o Sagres",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6b2f8c50-e833-4b40-9f8e-36a965f2d092",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "SAGRES",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "44fc235f-022a-4a98-8830-533c9a401e56",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
