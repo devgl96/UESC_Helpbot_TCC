@@ -1,4 +1,5 @@
 # UESC_Helpbot_TCC
+![Image from robot to represent my Bot](/design/UESC_Helpbot_TCC.jpg)
 Projeto TCC. Este repositório é o desenvolvimento do chatbot chamado UESC Helpbot. 
 
 ## Objetivo
